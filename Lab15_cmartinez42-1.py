@@ -29,3 +29,6 @@ plt.plot(x, y)
 plt.title("Sine Wave")
 plt.xlabel("X Axis (Radians)")
 plt.ylabel("Y Axis")
+
+#Saved to image file
+plt.savefig("my_plot.png")
