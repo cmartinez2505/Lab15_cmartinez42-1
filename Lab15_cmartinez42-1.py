@@ -24,3 +24,8 @@ for degree in range(361):
 
 #Data plotted
 plt.plot(x, y)
+
+#Added title and labels
+plt.title("Sine Wave")
+plt.xlabel("X Axis (Radians)")
+plt.ylabel("Y Axis")
