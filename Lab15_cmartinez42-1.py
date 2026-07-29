@@ -32,3 +32,6 @@ plt.ylabel("Y Axis")
 
 #Saved to image file
 plt.savefig("my_plot.png")
+
+#plot displayed
+plt.show()
