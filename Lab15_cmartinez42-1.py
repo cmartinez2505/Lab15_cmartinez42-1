@@ -21,4 +21,6 @@ for degree in range(361):
     radian = math.radians(degree)
     x.append(radian)
     y.append(math.sin(radian))
-    
+
+#Data plotted
+plt.plot(x, y)
